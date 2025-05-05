@@ -56,7 +56,7 @@ InstallDir "$PROGRAMFILES64\${PRODUCT_NAME}"
 ####################################################################
 # Language
 
-!insertmacro MUI_LANGUAGE "English" ; The first language is the default languagee
+!insertmacro MUI_LANGUAGE "English" ; The first language is the default languageee
 !insertmacro MUI_LANGUAGE "French"
 !insertmacro MUI_LANGUAGE "German"
 !insertmacro MUI_LANGUAGE "Spanish"
