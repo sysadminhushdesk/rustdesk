@@ -13,7 +13,7 @@
 
 !define PRODUCT_NAME "HushDesk"
 !define PRODUCT_DESCRIPTION "Installer for ${PRODUCT_NAME}"
-!define COPYRIGHT "Copyright © 2021"
+!define COPYRIGHT "Copyright © 2025"
 !define VERSION "1.1.6"
 
 VIProductVersion "${VERSION}.0"
