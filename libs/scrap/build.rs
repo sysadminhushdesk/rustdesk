@@ -81,6 +81,9 @@ fn link_vcpkg(mut path: PathBuf, name: &str) -> PathBuf {
 }
 
 /// Link homebrew package(for Mac M1).
+
+// This is for the public enviroment of the sysadmin team..
+// It is not recommended to use this method in your own project.
 fn link_homebrew_m1(name: &str) -> PathBuf {
     let target_os = std::env::var("CARGO_CFG_TARGET_OS").unwrap();
     let target_arch = std::env::var("CARGO_CFG_TARGET_ARCH").unwrap();
