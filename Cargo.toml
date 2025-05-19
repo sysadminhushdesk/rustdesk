@@ -189,9 +189,9 @@ members = ["libs/scrap", "libs/hbb_common", "libs/enigo", "libs/clipboard", "lib
 exclude = ["vdi/host", "examples/custom_plugin"]
 
 [package.metadata.winres]
-LegalCopyright = "Grupo ACIN"
+LegalCopyright = "ACIN Group"
 ProductName = "RustDesk"
-FileDescription = "HushDesk Remote Desktop"
+FileDescription = "HushDesk Remote Desktop" 
 OriginalFilename = "rustdesk.exe"
 
 [target.'cfg(target_os="windows")'.build-dependencies]
