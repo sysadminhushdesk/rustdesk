@@ -4,7 +4,7 @@ version = "1.4.0"
 authors = ["rustdesk <info@rustdesk.com>"]
 edition = "2021"
 build= "build.rs"
-description = "HushDesk Remote Desktop"
+description = "RustDesk Remote Desktop"
 default-run = "rustdesk"
 rust-version = "1.75"
 
@@ -191,7 +191,7 @@ exclude = ["vdi/host", "examples/custom_plugin"]
 [package.metadata.winres]
 LegalCopyright = "ACIN Group"
 ProductName = "RustDesk"
-FileDescription = "HushDesk Remote Desktop" 
+FileDescription = "RustDesk Remote Desktop" 
 OriginalFilename = "rustdesk.exe"
 
 [target.'cfg(target_os="windows")'.build-dependencies]
