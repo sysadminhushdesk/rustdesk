@@ -38,7 +38,7 @@ SetOverwrite on
 InstallDir "$PROGRAMFILES64\${PRODUCT_NAME}"
 
 ####################################################################
-# Pages
+## Pages
 
 !define MUI_ICON "icon.ico"
 !define MUI_ABORTWARNING
